@@ -1,0 +1,163 @@
+MySQL FIO Benchmark Summary (20250310_154414)
+===============================================
+
+Test: mysql_innodb_log on /disk1
+  Read IOPS: 0
+  Write IOPS: 3938.461538
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 63015 KB/s
+  Read Latency: 0 μs
+  Write Latency: 785.258258575 μs
+
+Test: mysql_random_read on /disk1
+  Read IOPS: 211272.040932
+  Write IOPS: 0
+  Read Bandwidth: 3380352 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 1211.110298476 μs
+  Write Latency: 0 μs
+
+Test: mysql_random_write on /disk1
+  Read IOPS: 0
+  Write IOPS: 124482.359215
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 1991717 KB/s
+  Read Latency: 0 μs
+  Write Latency: 2055.558200437 μs
+
+Test: mysql_mixed_workload on /disk1
+  Read IOPS: 102012.932687
+  Write IOPS: 43735.313234
+  Read Bandwidth: 1632206 KB/s
+  Write Bandwidth: 699765 KB/s
+  Read Latency: 1382.297104111 μs
+  Write Latency: 2626.407844283 μs
+
+Test: mysql_insert_workload on /disk1
+  Read IOPS: 0
+  Write IOPS: 15618.684461
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 1999191 KB/s
+  Read Latency: 0 μs
+  Write Latency: 1021.585665344 μs
+
+Test: mysql_backup_workload on /disk1
+  Read IOPS: 4623.024831
+  Write IOPS: 0
+  Read Bandwidth: 4733977 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 3430.116768555 μs
+  Write Latency: 0 μs
+
+Test: mysql_index_scan on /disk1
+  Read IOPS: 275274.445426
+  Write IOPS: 0
+  Read Bandwidth: 1101097 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 464.46950202299996 μs
+  Write Latency: 0 μs
+
+Test: mysql_table_scan on /disk1
+  Read IOPS: 36288.861852
+  Write IOPS: 0
+  Read Bandwidth: 2322487 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 881.0344778350001 μs
+  Write Latency: 0 μs
+
+Test: mysql_write_heavy_oltp on /disk1
+  Read IOPS: 52317.661372
+  Write IOPS: 122105.548241
+  Read Bandwidth: 418541 KB/s
+  Write Bandwidth: 976844 KB/s
+  Read Latency: 693.809169807 μs
+  Write Latency: 749.856860965 μs
+
+Test: mysql_binlog_writes on /disk1
+  Read IOPS: 0
+  Write IOPS: 4360.926271
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 17443 KB/s
+  Read Latency: 0 μs
+  Write Latency: 98.893171432 μs
+
+Test: mysql_innodb_log on /disk2
+  Read IOPS: 0
+  Write IOPS: 4246.209667
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 67939 KB/s
+  Read Latency: 0 μs
+  Write Latency: 725.4314819340001 μs
+
+Test: mysql_random_read on /disk2
+  Read IOPS: 64521.039913
+  Write IOPS: 0
+  Read Bandwidth: 1032336 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 3966.587319528 μs
+  Write Latency: 0 μs
+
+Test: mysql_random_write on /disk2
+  Read IOPS: 0
+  Write IOPS: 33702.651357
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 539242 KB/s
+  Read Latency: 0 μs
+  Write Latency: 7594.678649322999 μs
+
+Test: mysql_mixed_workload on /disk2
+  Read IOPS: 31709.676882
+  Write IOPS: 13627.605859
+  Read Bandwidth: 507354 KB/s
+  Write Bandwidth: 218041 KB/s
+  Read Latency: 7249.559915402 μs
+  Write Latency: 1910.147599988 μs
+
+Test: mysql_insert_workload on /disk2
+  Read IOPS: 0
+  Write IOPS: 4191.353287
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 536493 KB/s
+  Read Latency: 0 μs
+  Write Latency: 3781.5276073 μs
+
+Test: mysql_backup_workload on /disk2
+  Read IOPS: 1702.41064
+  Write IOPS: 0
+  Read Bandwidth: 1743268 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 9369.39728418 μs
+  Write Latency: 0 μs
+
+Test: mysql_index_scan on /disk2
+  Read IOPS: 215905.584907
+  Write IOPS: 0
+  Read Bandwidth: 863622 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 592.23891425 μs
+  Write Latency: 0 μs
+
+Test: mysql_table_scan on /disk2
+  Read IOPS: 26729.859005
+  Write IOPS: 0
+  Read Bandwidth: 1710710 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 1196.187896925 μs
+  Write Latency: 0 μs
+
+Test: mysql_write_heavy_oltp on /disk2
+  Read IOPS: 19589.0137
+  Write IOPS: 45733.658878
+  Read Bandwidth: 156712 KB/s
+  Write Bandwidth: 365869 KB/s
+  Read Latency: 1251.797526285 μs
+  Write Latency: 2260.526134191 μs
+
+Test: mysql_binlog_writes on /disk2
+  Read IOPS: 0
+  Write IOPS: 4734.404912
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 18937 KB/s
+  Read Latency: 0 μs
+  Write Latency: 99.31730148300001 μs
+

@@ -1,0 +1,212 @@
+Hadoop FIO Benchmark Started at Mon Mar 10 19:23:54 IST 2025
+===============================================
+
+Testing mount point: /disk1
+===============================================
+Running test: hdfs_large_write on /disk1
+Output file: ./fio_results/fio_hdfs_large_write_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 15.434704
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 2023057 KB/s
+    Read Latency: 0 μs
+    Write Latency: 946554.17240625 μs
+
+Running test: hdfs_large_read on /disk1
+Output file: ./fio_results/fio_hdfs_large_read_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 38.40384
+    Write IOPS: 0
+    Read Bandwidth: 5033668 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 357266.40846093796 μs
+    Write Latency: 0 μs
+
+Running test: hdfs_small_write on /disk1
+Output file: ./fio_results/fio_hdfs_small_write_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 28422.338181
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 1819029 KB/s
+    Read Latency: 0 μs
+    Write Latency: 4487.717365758 μs
+
+Running test: hdfs_small_read on /disk1
+Output file: ./fio_results/fio_hdfs_small_read_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 52106.655811
+    Write IOPS: 0
+    Read Bandwidth: 3334825 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 2300.39228982 μs
+    Write Latency: 0 μs
+
+Running test: mapreduce_shuffle on /disk1
+Output file: ./fio_results/fio_mapreduce_shuffle_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 1294.884604
+    Write IOPS: 1293.385953
+    Read Bandwidth: 1325961 KB/s
+    Write Bandwidth: 1324427 KB/s
+    Read Latency: 29562.080497087 μs
+    Write Latency: 69345.921268987 μs
+
+Running test: hdfs_replication on /disk1
+Output file: ./fio_results/fio_hdfs_replication_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 2.39898
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 314439 KB/s
+    Read Latency: 0 μs
+    Write Latency: 129489.971958333 μs
+
+Running test: namenode_editlog on /disk1
+Output file: ./fio_results/fio_namenode_editlog_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 4400.45659
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 17601 KB/s
+    Read Latency: 0 μs
+    Write Latency: 98.830728775 μs
+
+Running test: yarn_temp_storage on /disk1
+Output file: ./fio_results/fio_yarn_temp_storage_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 2591.950671
+    Write IOPS: 6042.779768
+    Read Bandwidth: 663539 KB/s
+    Write Bandwidth: 1546951 KB/s
+    Read Latency: 931.635101453 μs
+    Write Latency: 4889.736070635 μs
+
+Running test: hbase_random_read on /disk1
+Output file: ./fio_results/fio_hbase_random_read_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 71428.738065
+    Write IOPS: 0
+    Read Bandwidth: 4571439 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 7164.666199591 μs
+    Write Latency: 0 μs
+
+Running test: hadoop_streaming on /disk1
+Output file: ./fio_results/fio_hadoop_streaming_disk1_20250310_192354.json
+  Results:
+    Read IOPS: 1293.159084
+    Write IOPS: 1350.274282
+    Read Bandwidth: 1324194 KB/s
+    Write Bandwidth: 1382680 KB/s
+    Read Latency: 1432.631779164 μs
+    Write Latency: 22248.168494922 μs
+
+
+Testing mount point: /disk2
+===============================================
+Running test: hdfs_large_write on /disk2
+Output file: ./fio_results/fio_hdfs_large_write_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 4.114829
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 539338 KB/s
+    Read Latency: 0 μs
+    Write Latency: 3690902.5156875 μs
+
+Running test: hdfs_large_read on /disk2
+Output file: ./fio_results/fio_hdfs_large_read_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 13.039935
+    Write IOPS: 0
+    Read Bandwidth: 1709170 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 1060832.590757812 μs
+    Write Latency: 0 μs
+
+Running test: hdfs_small_write on /disk2
+Output file: ./fio_results/fio_hdfs_small_write_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 7924.469896
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 507166 KB/s
+    Read Latency: 0 μs
+    Write Latency: 16121.685718031 μs
+
+Running test: hdfs_small_read on /disk2
+Output file: ./fio_results/fio_hdfs_small_read_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 17000.929738
+    Write IOPS: 0
+    Read Bandwidth: 1088059 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 7516.061413125 μs
+    Write Latency: 0 μs
+
+Running test: mapreduce_shuffle on /disk2
+Output file: ./fio_results/fio_mapreduce_shuffle_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 372.125887
+    Write IOPS: 378.37703
+    Read Bandwidth: 381056 KB/s
+    Write Bandwidth: 387458 KB/s
+    Read Latency: 158287.202374168 μs
+    Write Latency: 182502.326755218 μs
+
+Running test: hdfs_replication on /disk2
+Output file: ./fio_results/fio_hdfs_replication_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 0.986436
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 96970 KB/s
+    Read Latency: 0 μs
+    Write Latency: 255495.529444444 μs
+
+Running test: namenode_editlog on /disk2
+Output file: ./fio_results/fio_namenode_editlog_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 0
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 0 μs
+    Write Latency: 0 μs
+
+Running test: yarn_temp_storage on /disk2
+Output file: ./fio_results/fio_yarn_temp_storage_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 
+    Write IOPS: 
+    Read Bandwidth:  KB/s
+    Write Bandwidth:  KB/s
+    Read Latency:  μs
+    Write Latency:  μs
+
+Running test: hbase_random_read on /disk2
+Output file: ./fio_results/fio_hbase_random_read_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 
+    Write IOPS: 
+    Read Bandwidth:  KB/s
+    Write Bandwidth:  KB/s
+    Read Latency:  μs
+    Write Latency:  μs
+
+Running test: hadoop_streaming on /disk2
+Output file: ./fio_results/fio_hadoop_streaming_disk2_20250310_192354.json
+  Results:
+    Read IOPS: 
+    Write IOPS: 
+    Read Bandwidth:  KB/s
+    Write Bandwidth:  KB/s
+    Read Latency:  μs
+    Write Latency:  μs
+
+
+Hadoop FIO Benchmark Completed at Mon Mar 10 19:37:37 IST 2025
+Results saved to ./fio_results
+Summary saved to ./fio_results/hadoop_fio_summary_20250310_192354.txt

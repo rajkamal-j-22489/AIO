@@ -1,0 +1,163 @@
+PostgreSQL FIO Benchmark Summary (20250310_193737)
+===============================================
+
+Test: pg_wal_write on /disk1
+  Read IOPS: 0
+  Write IOPS: 3690.505688
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 29524 KB/s
+  Read Latency: 0 μs
+  Write Latency: 119.09451564 μs
+
+Test: pg_index_read on /disk1
+  Read IOPS: 215660.088999
+  Write IOPS: 0
+  Read Bandwidth: 1725280 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 592.964626373 μs
+  Write Latency: 0 μs
+
+Test: pg_data_write on /disk1
+  Read IOPS: 0
+  Write IOPS: 181549.057516
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 1452392 KB/s
+  Read Latency: 0 μs
+  Write Latency: 351.90018836999997 μs
+
+Test: pg_oltp_mixed on /disk1
+  Read IOPS: 136044.282595
+  Write IOPS: 45390.660156
+  Read Bandwidth: 1088354 KB/s
+  Write Bandwidth: 363125 KB/s
+  Read Latency: 720.674224637 μs
+  Write Latency: 656.3900800700001 μs
+
+Test: pg_bulk_load on /disk1
+  Read IOPS: 0
+  Write IOPS: 7824.25979
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 2003010 KB/s
+  Read Latency: 0 μs
+  Write Latency: 2038.923634277 μs
+
+Test: pg_vacuum on /disk1
+  Read IOPS: 36858.369027
+  Write IOPS: 9239.146014
+  Read Bandwidth: 1179467 KB/s
+  Write Bandwidth: 295652 KB/s
+  Read Latency: 366.56460404800004 μs
+  Write Latency: 263.418720329 μs
+
+Test: pg_table_scan on /disk1
+  Read IOPS: 15837.602707
+  Write IOPS: 0
+  Read Bandwidth: 2027213 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 1008.003864838 μs
+  Write Latency: 0 μs
+
+Test: pg_checkpoint on /disk1
+  Read IOPS: 0
+  Write IOPS: 2551.826182
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 326633 KB/s
+  Read Latency: 0 μs
+  Write Latency: 379.680712524 μs
+
+Test: pg_parallel_query on /disk1
+  Read IOPS: 54841.841004
+  Write IOPS: 0
+  Read Bandwidth: 3509877 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 1153.8271831129998 μs
+  Write Latency: 0 μs
+
+Test: pg_transaction_commit on /disk1
+  Read IOPS: 0
+  Write IOPS: 25401.550388
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 101606 KB/s
+  Read Latency: 0 μs
+  Write Latency: 525.58393004 μs
+
+Test: pg_wal_write on /disk2
+  Read IOPS: 0
+  Write IOPS: 4457.624813
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 35660 KB/s
+  Read Latency: 0 μs
+  Write Latency: 105.391495216 μs
+
+Test: pg_index_read on /disk2
+  Read IOPS: 126915.454227
+  Write IOPS: 0
+  Read Bandwidth: 1015323 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 1007.9619025009999 μs
+  Write Latency: 0 μs
+
+Test: pg_data_write on /disk2
+  Read IOPS: 0
+  Write IOPS: 61788.073731
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 494304 KB/s
+  Read Latency: 0 μs
+  Write Latency: 1034.612619724 μs
+
+Test: pg_oltp_mixed on /disk2
+  Read IOPS: 63973.501325
+  Write IOPS: 21358.86539
+  Read Bandwidth: 511788 KB/s
+  Write Bandwidth: 170870 KB/s
+  Read Latency: 1832.1037099359999 μs
+  Write Latency: 498.001269272 μs
+
+Test: pg_bulk_load on /disk2
+  Read IOPS: 0
+  Write IOPS: 2060.103106
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 527386 KB/s
+  Read Latency: 0 μs
+  Write Latency: 7762.698311339999 μs
+
+Test: pg_vacuum on /disk2
+  Read IOPS: 12827.489084
+  Write IOPS: 3227.142429
+  Read Bandwidth: 410479 KB/s
+  Write Bandwidth: 103268 KB/s
+  Read Latency: 1155.667549219 μs
+  Write Latency: 353.117654122 μs
+
+Test: pg_table_scan on /disk2
+  Read IOPS: 13081.037924
+  Write IOPS: 0
+  Read Bandwidth: 1674372 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 1220.69821402 μs
+  Write Latency: 0 μs
+
+Test: pg_checkpoint on /disk2
+  Read IOPS: 0
+  Write IOPS: 2551.627472
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 326608 KB/s
+  Read Latency: 0 μs
+  Write Latency: 950.830557861 μs
+
+Test: pg_parallel_query on /disk2
+  Read IOPS: 27249.89605
+  Write IOPS: 0
+  Read Bandwidth: 1743993 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 2341.36423201 μs
+  Write Latency: 0 μs
+
+Test: pg_transaction_commit on /disk2
+  Read IOPS: 0
+  Write IOPS: 31775.030303
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 127100 KB/s
+  Read Latency: 0 μs
+  Write Latency: 443.230114935 μs
+

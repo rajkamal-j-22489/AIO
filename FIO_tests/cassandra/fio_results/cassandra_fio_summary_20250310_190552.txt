@@ -1,0 +1,163 @@
+Cassandra FIO Benchmark Summary (20250310_190552)
+===============================================
+
+Test: cassandra_sequential_write on /disk1
+  Read IOPS: 0
+  Write IOPS: 31364.441254
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 2007324 KB/s
+  Read Latency: 0 μs
+  Write Latency: 4073.439120621 μs
+
+Test: cassandra_random_read on /disk1
+  Read IOPS: 274645.245158
+  Write IOPS: 0
+  Read Bandwidth: 2197161 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 1863.6709165399998 μs
+  Write Latency: 0 μs
+
+Test: cassandra_commitlog on /disk1
+  Read IOPS: 0
+  Write IOPS: 4835.088625
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 19340 KB/s
+  Read Latency: 0 μs
+  Write Latency: 84.244552101 μs
+
+Test: cassandra_compaction on /disk1
+  Read IOPS: 31589.877342
+  Write IOPS: 13577.494834
+  Read Bandwidth: 2021752 KB/s
+  Write Bandwidth: 868959 KB/s
+  Read Latency: 798.5728543060001 μs
+  Write Latency: 2850.706302376 μs
+
+Test: cassandra_key_cache on /disk1
+  Read IOPS: 316179.821345
+  Write IOPS: 0
+  Read Bandwidth: 1264719 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 3237.997602044 μs
+  Write Latency: 0 μs
+
+Test: cassandra_streaming on /disk1
+  Read IOPS: 1292.889759
+  Write IOPS: 1378.995434
+  Read Bandwidth: 1323919 KB/s
+  Write Bandwidth: 1412091 KB/s
+  Read Latency: 1388.616744702 μs
+  Write Latency: 10258.008215705 μs
+
+Test: cassandra_repair on /disk1
+  Read IOPS: 38791.390287
+  Write IOPS: 9744.675177
+  Read Bandwidth: 2482648 KB/s
+  Write Bandwidth: 623659 KB/s
+  Read Latency: 723.154894803 μs
+  Write Latency: 3680.633292547 μs
+
+Test: cassandra_oltp on /disk1
+  Read IOPS: 119171.441428
+  Write IOPS: 64224.838758
+  Read Bandwidth: 953371 KB/s
+  Write Bandwidth: 513798 KB/s
+  Read Latency: 2673.35857013 μs
+  Write Latency: 3008.803172043 μs
+
+Test: cassandra_hints on /disk1
+  Read IOPS: 0
+  Write IOPS: 127750.487329
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 511001 KB/s
+  Read Latency: 0 μs
+  Write Latency: 124.411297546 μs
+
+Test: cassandra_backup on /disk1
+  Read IOPS: 5207.883026
+  Write IOPS: 0
+  Read Bandwidth: 5332872 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 6119.024159546 μs
+  Write Latency: 0 μs
+
+Test: cassandra_sequential_write on /disk2
+  Read IOPS: 0
+  Write IOPS: 8432.863669
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 539703 KB/s
+  Read Latency: 0 μs
+  Write Latency: 15168.291061447 μs
+
+Test: cassandra_random_read on /disk2
+  Read IOPS: 129552.453962
+  Write IOPS: 0
+  Read Bandwidth: 1036419 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 3950.91454618 μs
+  Write Latency: 0 μs
+
+Test: cassandra_commitlog on /disk2
+  Read IOPS: 0
+  Write IOPS: 4602.32799
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 18409 KB/s
+  Read Latency: 0 μs
+  Write Latency: 102.085088982 μs
+
+Test: cassandra_compaction on /disk2
+  Read IOPS: 8725.065409
+  Write IOPS: 3747.646108
+  Read Bandwidth: 558404 KB/s
+  Write Bandwidth: 239849 KB/s
+  Read Latency: 5891.199491468999 μs
+  Write Latency: 3353.06782797 μs
+
+Test: cassandra_key_cache on /disk2
+  Read IOPS: 240980.101658
+  Write IOPS: 0
+  Read Bandwidth: 963920 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 4248.432120288 μs
+  Write Latency: 0 μs
+
+Test: cassandra_streaming on /disk2
+  Read IOPS: 356.603095
+  Write IOPS: 380.352645
+  Read Bandwidth: 365161 KB/s
+  Write Bandwidth: 389481 KB/s
+  Read Latency: 9896.445491927 μs
+  Write Latency: 32700.621739356997 μs
+
+Test: cassandra_repair on /disk2
+  Read IOPS: 10948.855967
+  Write IOPS: 2749.879181
+  Read Bandwidth: 700726 KB/s
+  Write Bandwidth: 175992 KB/s
+  Read Latency: 5471.414031328 μs
+  Write Latency: 1472.152696804 μs
+
+Test: cassandra_oltp on /disk2
+  Read IOPS: 54163.861485
+  Write IOPS: 29228.819491
+  Read Bandwidth: 433310 KB/s
+  Write Bandwidth: 233830 KB/s
+  Read Latency: 7049.342476861 μs
+  Write Latency: 4446.195906251 μs
+
+Test: cassandra_hints on /disk2
+  Read IOPS: 0
+  Write IOPS: 78019.047619
+  Read Bandwidth: 0 KB/s
+  Write Bandwidth: 312076 KB/s
+  Read Latency: 0 μs
+  Write Latency: 200.01054188199998 μs
+
+Test: cassandra_backup on /disk2
+  Read IOPS: 1703.826955
+  Write IOPS: 0
+  Read Bandwidth: 1744718 KB/s
+  Write Bandwidth: 0 KB/s
+  Read Latency: 18634.150803467 μs
+  Write Latency: 0 μs
+

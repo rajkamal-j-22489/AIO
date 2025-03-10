@@ -1,0 +1,112 @@
+MySQL FIO Benchmark Started at Mon Mar 10 15:30:52 IST 2025
+===============================================
+
+Testing mount point: /disk1
+===============================================
+Running test: mysql_innodb_log on /disk1
+Output file: ./fio_results/fio_mysql_innodb_log_disk1_20250310_153052.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 3677.665544
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 58842 KB/s
+    Read Latency: 0 μs
+    Write Latency: 840.8827487030001 μs
+
+Running test: mysql_random_read on /disk1
+Output file: ./fio_results/fio_mysql_random_read_disk1_20250310_153052.json
+  Results:
+    Read IOPS: 193608.996367
+    Write IOPS: 0
+    Read Bandwidth: 3097743 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 1321.615175481 μs
+    Write Latency: 0 μs
+
+Running test: mysql_random_write on /disk1
+Output file: ./fio_results/fio_mysql_random_write_disk1_20250310_153052.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 125573.91884
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 2009182 KB/s
+    Read Latency: 0 μs
+    Write Latency: 2037.6923919780002 μs
+
+Running test: mysql_mixed_workload on /disk1
+Output file: ./fio_results/fio_mysql_mixed_workload_disk1_20250310_153052.json
+  Results:
+    Read IOPS: 102002.949902
+    Write IOPS: 43732.008933
+    Read Bandwidth: 1632047 KB/s
+    Write Bandwidth: 699712 KB/s
+    Read Latency: 1553.4178803040002 μs
+    Write Latency: 2227.720642324 μs
+
+Running test: mysql_insert_workload on /disk1
+Output file: ./fio_results/fio_mysql_insert_workload_disk1_20250310_153052.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 15860.600194
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 2030156 KB/s
+    Read Latency: 0 μs
+    Write Latency: 1006.53234906 μs
+
+
+Testing mount point: /disk2
+===============================================
+Running test: mysql_innodb_log on /disk2
+Output file: ./fio_results/fio_mysql_innodb_log_disk2_20250310_153052.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 3972.841901
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 63565 KB/s
+    Read Latency: 0 μs
+    Write Latency: 774.9897899169999 μs
+
+Running test: mysql_random_read on /disk2
+Output file: ./fio_results/fio_mysql_random_read_disk2_20250310_153052.json
+  Results:
+    Read IOPS: 64565.069578
+    Write IOPS: 0
+    Read Bandwidth: 1033041 KB/s
+    Write Bandwidth: 0 KB/s
+    Read Latency: 3964.019269851 μs
+    Write Latency: 0 μs
+
+Running test: mysql_random_write on /disk2
+Output file: ./fio_results/fio_mysql_random_write_disk2_20250310_153052.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 33683.031697
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 538928 KB/s
+    Read Latency: 0 μs
+    Write Latency: 7599.234218622 μs
+
+Running test: mysql_mixed_workload on /disk2
+Output file: ./fio_results/fio_mysql_mixed_workload_disk2_20250310_153052.json
+  Results:
+    Read IOPS: 31713.00015
+    Write IOPS: 13627.943407
+    Read Bandwidth: 507408 KB/s
+    Write Bandwidth: 218047 KB/s
+    Read Latency: 7262.3972042880005 μs
+    Write Latency: 1878.923711263 μs
+
+Running test: mysql_insert_workload on /disk2
+Output file: ./fio_results/fio_mysql_insert_workload_disk2_20250310_153052.json
+  Results:
+    Read IOPS: 0
+    Write IOPS: 4187.068745
+    Read Bandwidth: 0 KB/s
+    Write Bandwidth: 535944 KB/s
+    Read Latency: 0 μs
+    Write Latency: 3751.627697021 μs
+
+
+MySQL FIO Benchmark Completed at Mon Mar 10 15:38:09 IST 2025
+Results saved to ./fio_results
+Summary saved to ./fio_results/mysql_fio_summary_20250310_153052.txt

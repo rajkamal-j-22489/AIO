@@ -1,0 +1,32 @@
+# System Information
+Date: Mon Mar 10 17:09:08 IST 2025
+Hostname: 10.62.130.218
+Kernel: 6.1.112
+
+## CPU Information
+Model name:                           Intel(R) Xeon(R) Gold 6438M
+BIOS Model name:                      pc-q35-7.2  CPU @ 2.0GHz
+Thread(s) per core:                   2
+Core(s) per socket:                   32
+Socket(s):                            1
+
+## Memory Information
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       938Mi        12Gi       2.5Mi       2.0Gi        14Gi
+Swap:          1.9Gi          0B       1.9Gi
+
+## Disk Information
+### Disk 1: /disk1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vdb1       427G   19G  404G   5% /disk1
+
+### Disk 2: /disk2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vdc1        99G   11G   88G  11% /disk2
+
+## Block Device Information
+NAME   SIZE TYPE VENDOR MODEL
+vda  433.1G disk 0x1af4 
+vdb  433.1G disk 0x1af4 
+vdc    100G disk 0x1af4 
+
